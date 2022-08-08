@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Lexend Bold";
+  src: url(../../assets/fonts/Lexend-Bold.ttf);
+}
+@font-face {
+  font-family: "Work Sans Bold";
+  src: url(../../assets/fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Work Sans Regular";
+  src: url(../../assets/fonts/WorkSans-Regular.ttf);
+}
+
+.how-it-works-wrapper {
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title-container {
+    font-family: "Lexend Bold";
+    font-size: 34px;
+    line-height: 40px;
+
+    color: #004366;
+    width: 100%;
+
+    text-align: center;
+    margin-top: 35px;
+    position: relative;
+
+    .back-button {
+      position: absolute;
+      background: transparent;
+      border: none;
+      outline: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 20px;
+
+      cursor: pointer;
+    }
+  }
+
+  .inside-box {
+    width: 295px;
+    height: 420px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 36px rgba(53, 54, 54, 0.09);
+    border-radius: 21px;
+
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .page-one-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 21px;
+
+      .content {
+        display: flex;
+        justify-content: center;
+        column-gap: 8px;
+        margin-top: 35px;
+
+        padding: 20px;
+
+        .left {
+          font-family: "Work Sans Bold";
+          font-size: 20px;
+          line-height: 23px;
+          color: #004366;
+        }
+        .right {
+          display: flex;
+          flex-direction: column;
+          row-gap: 32px;
+
+          .caption {
+            font-family: "Work Sans Bold";
+            font-size: 20px;
+            line-height: 23px;
+            color: #004366;
+          }
+          .description {
+            font-family: "Work Sans Regular";
+            font-size: 13px;
+            line-height: 15px;
+            color: #004366;
+            min-height: 75px;
+          }
+        }
+      }
+      .button-container {
+        width: 100%;
+
+        padding: 0 15px;
+
+        .button-wrapper {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+
+          .round-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+
+            border: none;
+            outline: none;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #004366;
+          }
+        }
+      }
+    }
+  }
+}

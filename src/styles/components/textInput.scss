@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lexend Medium";
+  src: url(../../assets/fonts/Lexend-Medium.ttf);
+}
+
+.input-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 100%;
+    height: 44px;
+
+    font-family: "Lexend Medium";
+    font-size: 16px;
+
+    padding: 8px 12px;
+    outline: none;
+    border: 1px solid #004366;
+    border-radius: 4px;
+
+    ::placeholder {
+      color: #b7b7b7;
+    }
+
+    .primary {
+      color: #003c5c;
+    }
+  }
+}

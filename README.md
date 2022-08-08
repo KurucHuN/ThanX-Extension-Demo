@@ -1,3 +1,23 @@
-# ThanX-Extension-Demo
-This is a demo version of ThanX Finance's upcoming browser extension that's currently in the works.
-Please follow the steps at https://thanx.finance/demo to install and test the extension.
+## Usage
+
+1. Install node modules, run
+   `yarn`
+
+2. Build extension, run
+   `yarn dev`
+
+3. Install the extension on Google Chrome
+
+
+
+## Config
+
+ You should mention the JavaScript files that you want to be in the extension as following in **webpack.config.js**
+```
+  entry: {
+    popup: "./src/popup.jsx",
+    content: "./src/content.jsx",
+    background: "./src/background.jsx",
+  },
+```
+
