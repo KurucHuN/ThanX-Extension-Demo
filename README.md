@@ -8,7 +8,11 @@
 
 3. Install the extension on Google Chrome
 
+## Edit partners
 
+Partner database file is located in src > database > partners.js
+
+You can edit this file to add or remove partners.
 
 ## Config
 
