@@ -12,8 +12,6 @@
 
 Partner database file is located in src > database > partners.js
 
-You can edit this file to add or remove partners.
-
 ## Config
 
  You should mention the JavaScript files that you want to be in the extension as following in **webpack.config.js**
